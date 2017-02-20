@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Template</title>
+  </head>
+  <body>
+    <nav>
+    <div class="nav-wrapper green darken-2">
+      <a href="#" class="brand-logo">Let It Grow</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="sass.html">Schedule</a></li>
+        <li><a href="badges.html">Dashboard</a></li>
+        <li><a href="collapsible.html">Profile</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+
+<!-- <main class="container">
+  <div id="container" style="width: 400px; height: 300px; margin: 0 auto"></div>
+</main> -->
+
+      <!-- <hc-chart options="chartOptions">Placeholder for generic chart</hc-chart>
+     <hc-pie-chart title="Browser usage" data="pieData">Placeholder for pie   chart</hc-pie-chart> -->
+
+    <highchart type="column" data="arr"
+           title="Movie Audience Measurement"
+           subtitle="Source: PirateBay"
+           y-title="Quantitative (MM)"
+           y-Field="value"
+           display-name="name"
+           category-field="period">
+    </highchart>
+  </body>
+</html>
